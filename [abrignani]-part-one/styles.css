@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Bungee', cursive;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #7944e6;
+}
+
+a:hover {
+    color: #10fdff;
+}
+
+header {
+    color: #7944e6;
+}
+
+.header-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ccc {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.ccc-words {
+    font-size: 1.2em;
+}
+
+.card-box {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-direction: column;
+    padding: 0 120px;
+}
+
+.cards {
+    border: #7944e6 solid 4px;
+    margin: 15px 30px 10px 30px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    width: 300px;
+
+}
+
+.card-pics {
+    height: 350px;
+    width: 300px;
+}
+
+#menu {
+    color: #7944e6;
+}
+
+#menu:hover {
+    color: #10fdff;
+}
+
+.card-text {
+    margin: 0;
+}
+
+.lorem {
+    line-height: 1.5;
+}
+
+h2 {
+    line-height: 1.1;
+}
+
+.about {
+    background-color: #ff00ff;
+    padding: 10px 0px 10px 0;
+    text-align: start;
+}
+
+.about-parent {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-child {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 1000px;
+}
+
+#truck {
+    height: 150px;
+    width: 230px;
+}
+
+@media screen and (min-width: 768px) {
+
+.about {
+    padding: 5px 25px 5px 25px;
+}
+
+.ccc-words {
+    font-size: 1.5em;
+}
+
+.ccc {
+    width: 400px;
+}
+
+.about-parent {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.about-child {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.card-pics {
+    width: 300px;
+}
+
+#truck {
+    padding: 0px 50px 0px 150px;
+    height: 300px;
+    width: 500px;
+}
+
+.card-box {
+    flex-direction: row;
+}
+
+.lorem {
+    font-size: 1.15em;
+}
+}
